@@ -1,4 +1,4 @@
-# 04-pokemon-game
+# Who's that Pokemon
 
 ## Project setup
 ```
