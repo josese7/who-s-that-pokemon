@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonImage Component snapshot 1`] = `<div class="pokemon-container"><img class="pokemon-hidden" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/undefined.svg" alt=""></div>`;

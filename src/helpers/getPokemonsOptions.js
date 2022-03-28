@@ -1,7 +1,7 @@
 import pokemonApi from "../api/pokemonApi"
 import capitalizarPrimeraLetra from "@/helpers/stringManager"
 
-const getPokemons = () =>{
+export const getPokemons = () =>{
     const pokemonsArray = Array.from(Array(650))
 
     return pokemonsArray.map((a, index)=> index+1)
@@ -17,7 +17,7 @@ const getPokemonsOptions  = async () => {
     //console.table(pokemons)
 }
  
-const getPokemonsNames = async ( [a,b,c,d] = []) => {
+export const getPokemonsNames = async ( [a,b,c,d] = []) => {
     //arreglo de promesas, para ser ejecutadas todas
     const promisesArr =[
         pokemonApi.get(`/${a}`),

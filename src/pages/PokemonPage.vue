@@ -57,8 +57,7 @@ export default {
 
       this.showPokemon = true
       this.showAnswer = true
-      this.message= pokemonId === this.pokemon.id? `Correcto, es ${this.pokemon.name}. 
-      ¡Estás cada vez más cerca de ser un MAESTRO POKEMON!`
+      this.message= pokemonId === this.pokemon.id? `Correcto, es ${this.pokemon.name}.¡Estás cada vez más cerca de ser un MAESTRO POKEMON!`
       : `Oops, lo siento! Era ${this.pokemon.name}`;
       return
     },
