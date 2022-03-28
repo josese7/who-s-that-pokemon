@@ -4,7 +4,7 @@ describe('pokemonApi', ()=>{
 
     test('axios debe estar configurado con baseURL', () => { 
         console.log(pokemonApi)
-        expect(pokemonApi.default.baseURL).toBe('https://pokeapi.co/api/v2/pokemon')
+        expect(pokemonApi.defaults.baseURL).toBe('https://pokeapi.co/api/v2/pokemon')
      })
     
 })
